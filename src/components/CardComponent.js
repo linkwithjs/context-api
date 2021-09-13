@@ -26,7 +26,7 @@ const Card = () => {
                 {users.map((curElem) => {
                   const { id, title, body } = curElem;
                   return (
-                    <tr>
+                    <tr key={id}>
                       <td>{id}</td>
                       <td>{title}</td>
                       <td>{body}</td>

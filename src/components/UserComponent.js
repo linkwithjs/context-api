@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import UserContext, { UserData } from "../context/UserContext";
 import Card from "./CardComponent";
 
